@@ -105,13 +105,13 @@ def main():
             model = build_model(input_shape,no_of_classes)
             count+=1
         else:
-            model = load_model('model.h5')
+            model = load_model('Models/model.h5')
         optimizer = keras.optimizers.Adam(learning_rate=0.0005)
         model.compile(optimizer=optimizer, loss='sparse_categorical_crossentropy', metrics=['accuracy'])
         # model.summary()
         print('Iteration Number -',num)
         history = model.fit(X_train, y_train, validation_data=(X_validation, y_validation), batch_size = 32, epochs=10)
-        model.save('model.h5')
+        model.save('Models/model.h5')
             
     # plot_history(history)
     test_loss, test_acc = model.evaluate(X_test,y_test,verbose=2)
