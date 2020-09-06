@@ -1,5 +1,5 @@
 # LanguageDetection
-Used to predict the language spoken. This is constrained to Indian Languages only, but could defenitely be extended. 
+Used to predict the language from the audio sample. This is constrained to Indian Languages only, but could be extended. 
 There are 10 different languages on which the model is trained.
 ##### Bengali, Hindi, Malayalam, Punjabi, Telugu, Gujarati, Kannada, Marathi, Tamil, Urdu.
 The model is trained using 100,000 different samples in every language.
