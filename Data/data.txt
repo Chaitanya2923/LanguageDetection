@@ -1,1 +1,0 @@
-All data used for training is on local machine.
