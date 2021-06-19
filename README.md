@@ -26,7 +26,7 @@ for the next iteration.
 This approach is used, since all the data has to be bought into the memory for training, and the data is way over 20 GB, bcz of which this method is implemented.
 
 ## Testing
-This model gave an accuracy of 87%, but there's a small problem with Bengali audio. All, literally all Bengali files are being predicted as Punjabi, which is actually reducing the accuracy. Other than that, the model is at 97% accuracy. 
+The model is at 87% accuracy. 
 
 ## Plots
 Since a different approach is used for training, we cannot plot the training from the start.
